@@ -1,4 +1,3 @@
-//first array is dresses and secound array is shoes
 const data = [
   {
     category: "Shoes",
