@@ -1,7 +1,7 @@
 .header-container {
-  margin: 1rem;
+  height: 8vh;
   background-color: burlywood;
-  font-size: 3rem;
+  font-size: 2rem;
 }
 
 .link {
