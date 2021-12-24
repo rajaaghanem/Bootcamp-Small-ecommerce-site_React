@@ -14,7 +14,8 @@
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: peachpuff;
+  background-color: rgb(247, 228, 212);
+  height: 90vh;
 }
 
 .category-container a {

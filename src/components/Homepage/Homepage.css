@@ -3,7 +3,8 @@
   text-align: center;
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  background-color: peachpuff;
+  background-color: rgb(248, 234, 221);
+  height: 90vh;
 }
 
 .categories-container a {

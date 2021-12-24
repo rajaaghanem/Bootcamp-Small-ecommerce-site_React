@@ -6,7 +6,7 @@
   border: 0.2rem solid rgba(255, 166, 0, 0.671);
   border-radius: 1rem;
   text-align: center;
-  margin: 0.4rem;
+  margin: 4rem;
   box-shadow: 0.2rem 0.2rem 1rem gray;
 }
 
@@ -18,7 +18,7 @@
 
 .card-image {
   width: 25vw;
-  height: 50vh;
+  height: 55vh;
   border-radius: 0.4rem;
   object-fit: cover;
 }
@@ -26,20 +26,20 @@
 .btn-style {
   font-size: 1.2rem;
   margin: 0.8rem;
-  background: wheat;
+  background: rgba(245, 222, 179, 0.829);
   border: none;
-  box-shadow: 0.2rem 0.2rem 0.6rem gray;
+  box-shadow: 0.2rem 0.2rem 1rem rgb(78, 77, 77);
   color: rgb(255, 102, 0);
   padding: 0.5rem;
   border-radius: 0.5rem;
 }
 
 .title {
-  background-color: papayawhip;
+  background-color: rgba(255, 239, 213, 0.904);
   border-radius: 0.4rem;
   padding: 1rem;
   margin: 0.5rem;
-  box-shadow: 0.2rem 0.2rem 0.6rem gray;
+  box-shadow: 0.2rem 0.2rem 1rem rgb(95, 94, 94);
 }
 
 .price {
