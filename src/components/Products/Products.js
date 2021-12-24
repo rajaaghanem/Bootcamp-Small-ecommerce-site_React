@@ -1,33 +1,28 @@
 import React from "react";
-import "./Product.css";
 import { Link } from "react-router-dom";
-import store from "../../store/store";
+
 
 class Products extends React.Component {
-  state = { data: [] };
+  // state = { data: store, currentItem: {} };
 
-  componentDidMount = () => {
-    this.setState({ data: store });
-  };
+  // componentDidMount = () => {
+  //   const id = Number(this.props.match.params.id);
+  //   const findItem = this.state.data.find((item) => {
+  //     return item.id === id;
+  //   });
+  //   this.setState({ currentItem: findItem });
+  // };
+
 
   render() {
-    // console.log(this.state.data);
-    // console.log(this.props.location.pathname);
     return (
-      <div>
-        
-        {/* {this.state.data.map((el) => {
-          return (
-            <Link
-              key={el.id}
-              to={`${this.props.location.pathname}/${el.id}`}
-              className="product-design"
-            >
-              <div className="div-test">{el.title}</div>
-              
-            </Link>
-          );
-        })} */}
+      <div className="proudct-container">products
+        {/* <div>{this.state.currentItem.title}</div>
+        {this.state.showBox ? <div className="yellow-box"></div> : null}
+        <img src={`${this.state.currentItem.imageUrl}`} />
+        <div> {this.state.currentItem.size}</div>
+        <div> {`${this.state.currentItem.price} $`}</div>
+        <button>ADD TO CART</button> */}
       </div>
     );
   }

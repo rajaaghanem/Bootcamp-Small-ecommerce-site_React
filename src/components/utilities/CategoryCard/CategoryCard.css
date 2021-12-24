@@ -1,5 +1,5 @@
 .category-card-title {
-  /* font-size: 2rem; */
+  font-size: 6rem;
   color: wheat;
 }
 
@@ -46,7 +46,7 @@
     no-repeat center center/cover;
 }
 
-.category-women_Jewelry {
+.category-women_jewelry {
   background: url("https://images.unsplash.com/photo-1561828995-aa79a2db86dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80")
     no-repeat center center/cover;
 }
