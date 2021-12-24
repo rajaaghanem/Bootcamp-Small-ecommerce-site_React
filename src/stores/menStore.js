@@ -1,8 +1,8 @@
 const data = [
   {
     category: "Shoes",
-    imageUrl:
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    imageClass:
+      "category-men_shoes",
     data: [
       {
         title: "white shoes",
@@ -30,8 +30,8 @@ const data = [
 
   {
     category: "Jeans",
-    imageUrl:
-      "https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+    imageClass:
+      "category-men_jeans",
     data: [
       {
         title: "Blue Jeans",
@@ -59,8 +59,8 @@ const data = [
 
   {
     category: "Coats",
-    imageUrl:
-      "https://images.unsplash.com/photo-1594938384824-022767a58e11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    imageClass:
+      "category-men_coats",
     data: [
       {
         title: "Blue Jacket",
@@ -88,8 +88,8 @@ const data = [
 
   {
     category: "Ties",
-    imageUrl:
-      "https://images.unsplash.com/photo-1591729652476-e7f587578d9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    imageClass:
+      "category-men_ties",
     data: [
       {
         title: "Ducks Tie",

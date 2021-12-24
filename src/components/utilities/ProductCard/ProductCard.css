@@ -1,0 +1,21 @@
+.card {
+  width: 15vw;
+  height: 35vh;
+  display: flex;
+  flex-direction: column;
+  border: 0.2rem solid orange;
+  border-radius: 0.5rem;
+  text-align: center;
+  margin: 0.4rem;
+  box-shadow: 0.2rem 0.2rem 0.6rem gray;
+}
+
+.card-content {
+  font-size: 2rem;
+}
+
+.card-image {
+  width: 15vw;
+  height: 25vh;
+  border-radius: 0.4rem;
+}

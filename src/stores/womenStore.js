@@ -1,8 +1,8 @@
 const data = [
   {
     category: "Shoes",
-    imageUrl:
-      "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    imageClass:
+      "category-women_shoes",
     data: [
       {
         title: "Stylish blue shoe",
@@ -30,8 +30,8 @@ const data = [
 
   {
     category: "Dresses",
-    imageUrl:
-      "https://images.unsplash.com/photo-1595156210483-560123baba96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    imageClass:
+      "category-women_dresses",
     data: [
       {
         title: "Dott dress",
@@ -59,8 +59,8 @@ const data = [
 
   {
     category: "Coats",
-    imageUrl:
-      "https://images.unsplash.com/photo-1514313996915-89d3aff2b79e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80",
+    imageClass:
+      "category-women_coats",
     data: [
       {
         title: "Beautiful Jacket",
@@ -88,8 +88,8 @@ const data = [
 
   {
     category: "Jewelry",
-    imageUrl:
-      "https://images.unsplash.com/photo-1561828995-aa79a2db86dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80",
+    imageClass:
+      "category-women_Jewelry",
     data: [
       {
         title: "moon nickles",

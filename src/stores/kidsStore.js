@@ -1,8 +1,8 @@
 const data = [
   {
     category: "Shoes",
-    imageUrl:
-      "https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    imageClass:
+      "category-kids_shoes",
     data: [
       {
         title: "Boots",
@@ -30,8 +30,8 @@ const data = [
 
   {
     category: "Games",
-    imageUrl:
-      "https://images.unsplash.com/photo-1595707678349-4b3f482bfbd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    imageClass:
+      "category-kids_games",
     data: [
       {
         title: "colorful",
@@ -59,8 +59,8 @@ const data = [
 
   {
     category: "Clothes",
-    imageUrl:
-      "https://images.unsplash.com/photo-1604467794349-0b74285de7e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80",
+    imageClass:
+      "category-kids_clothes",
     data: [
       {
         title: "White shirt",
@@ -88,8 +88,8 @@ const data = [
 
   {
     category: "Babies",
-    imageUrl:
-      "https://images.unsplash.com/photo-1522771930-78848d9293e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
+    imageClass:
+      "category-kids_babies",
     data: [
       {
         title: "Blue jacket",

@@ -1,0 +1,110 @@
+.category-card-title {
+  /* font-size: 2rem; */
+  color: wheat;
+}
+
+.category-card {
+  border-radius: 0.5rem;
+  box-shadow: 0.3rem 0.3rem 0.6rem gray;
+  text-align: center;
+}
+
+.category-women {
+  background: url("https://images.unsplash.com/photo-1581404917879-53e19259fdda?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=869&q=80")
+    no-repeat center center/cover;
+}
+
+.category-men {
+  background: url("https://images.unsplash.com/photo-1490578474895-699cd4e2cf59?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80")
+    no-repeat center center/cover;
+}
+
+.category-kids {
+  background: url("https://images.unsplash.com/photo-1607453998774-d533f65dac99?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
+    no-repeat center center/cover;
+}
+
+.category-home {
+  background: url("https://images.unsplash.com/photo-1505691723518-36a5ac3be353?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-women_shoes {
+  background: url("https://images.unsplash.com/photo-1543163521-1bf539c55dd2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80")
+    no-repeat center center/cover;
+}
+
+.category-women_dresses {
+  background: url("https://images.unsplash.com/photo-1595156210483-560123baba96?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-women_coats {
+  background: url("https://images.unsplash.com/photo-1514313996915-89d3aff2b79e?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=822&q=80")
+    no-repeat center center/cover;
+}
+
+.category-women_Jewelry {
+  background: url("https://images.unsplash.com/photo-1561828995-aa79a2db86dd?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80")
+    no-repeat center center/cover;
+}
+
+.category-men_shoes {
+  background: url("https://images.unsplash.com/photo-1542291026-7eec264c27ff?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-men_jeans {
+  background: url("https://images.unsplash.com/photo-1602293589930-45aad59ba3ab?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
+    no-repeat center center/cover;
+}
+
+.category-men_coats {
+  background: url("https://images.unsplash.com/photo-1594938384824-022767a58e11?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=580&q=80")
+    no-repeat center center/cover;
+}
+
+.category-men_ties {
+  background: url("https://images.unsplash.com/photo-1591729652476-e7f587578d9c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-kids_shoes {
+  background: url("https://images.unsplash.com/photo-1540479859555-17af45c78602?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-kids_games {
+  background: url("https://images.unsplash.com/photo-1595707678349-4b3f482bfbd3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-kids_clothes {
+  background: url("https://images.unsplash.com/photo-1604467794349-0b74285de7e7?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-kids_babies {
+  background: url("https://images.unsplash.com/photo-1522771930-78848d9293e8?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80")
+    no-repeat center center/cover;
+}
+
+.category-home_kitchen {
+  background: url("https://images.unsplash.com/photo-1588854337221-4cf9fa96059c?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}
+
+.category-home_living-room {
+  background: url("https://images.unsplash.com/photo-1583847268964-b28dc8f51f92?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
+    no-repeat center center/cover;
+}
+
+.category-home_bedroom {
+  background: url("https://images.unsplash.com/photo-1556020685-ae41abfc9365?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80")
+    no-repeat center center/cover;
+}
+
+.category-home_bathroom {
+  background: url("https://images.unsplash.com/photo-1584622650111-993a426fbf0a?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=870&q=80")
+    no-repeat center center/cover;
+}

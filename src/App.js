@@ -5,7 +5,8 @@ import Homepage from "./components/Homepage/Homepage";
 import Header from "./components/Header/Header";
 import Products from "./components/Products/Products";
 import ProductDetail from "./components/ProductDetail/ProductDetail ";
-import ShopingCart from "./components/ShpoingCart/ShopingCart";
+import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
+import CategoryCard from "./components/utilities/CategoryCard/CategoryCard";
 
 class App extends React.Component {
   render() {
@@ -17,7 +18,8 @@ class App extends React.Component {
             <Route path="/" exact component={Homepage} />
             <Route path="/products" exact component={Products} />
             <Route path="/products/:id" exact component={ProductDetail} />
-            <Route path="/shoppingcart" exact component={ShopingCart} />
+            <Route path="/shoppingcart" exact component={ShoppingCart} />
+            <CategoryCard />
           </div>
         </BrowserRouter>
       </div>
