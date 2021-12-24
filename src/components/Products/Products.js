@@ -1,28 +1,37 @@
 import React from "react";
+import homeStore from "../../stores/homeStore";
+import kidsStore from "../../stores/kidsStore";
+import menStore from "../../stores/menStore";
+import womenStore from "../../stores/womenStore";
+import ProductCard from "../utilities/ProductCard/ProductCard";
 import { Link } from "react-router-dom";
 
-
 class Products extends React.Component {
-  // state = { data: store, currentItem: {} };
+  state = {
+    women: womenStore,
+    men: menStore,
+    kids: kidsStore,
+    home: homeStore,
+    currentCategory:[],
+  };
 
-  // componentDidMount = () => {
-  //   const id = Number(this.props.match.params.id);
-  //   const findItem = this.state.data.find((item) => {
-  //     return item.id === id;
-  //   });
-  //   this.setState({ currentItem: findItem });
-  // };
-
+  mapping=()=>{
+    const current = this.props.match.params.name
+  }
 
   render() {
+    console.log(this.state.women);
+    console.log(this.props.match.params);
+
     return (
-      <div className="proudct-container">products
+      <div className="proudct-container">
         {/* <div>{this.state.currentItem.title}</div>
         {this.state.showBox ? <div className="yellow-box"></div> : null}
         <img src={`${this.state.currentItem.imageUrl}`} />
         <div> {this.state.currentItem.size}</div>
         <div> {`${this.state.currentItem.price} $`}</div>
         <button>ADD TO CART</button> */}
+        <ProductCard/>
       </div>
     );
   }
