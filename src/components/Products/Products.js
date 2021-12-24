@@ -5,6 +5,7 @@ import menStore from "../../stores/menStore";
 import womenStore from "../../stores/womenStore";
 import ProductCard from "../utilities/ProductCard/ProductCard";
 import { Link } from "react-router-dom";
+import "./Prouducts.css";
 
 class Products extends React.Component {
   state = {
@@ -12,28 +13,32 @@ class Products extends React.Component {
     men: menStore,
     kids: kidsStore,
     home: homeStore,
-    currentCategory:[],
+    currentCategory: this.props.match.params.name,
+    currentIdx: this.props.match.params.idx,
   };
 
-  mapping=()=>{
-    const current = this.props.match.params.name
-  }
+  currentProducts =
+    this.state[this.state.currentCategory][this.state.currentIdx].data;
+
+  mapping = () => {
+    return this.currentProducts.map((product) => {
+      return (
+        <ProductCard
+          key={product.id}
+          title={product.title}
+          img={product.imageUrl}
+          price={product.price}
+        >
+        </ProductCard>
+      );
+    });
+  };
 
   render() {
-    console.log(this.state.women);
-    console.log(this.props.match.params);
+    console.log(this.currentProducts);
+    console.log(this.props.match.params.name);
 
-    return (
-      <div className="proudct-container">
-        {/* <div>{this.state.currentItem.title}</div>
-        {this.state.showBox ? <div className="yellow-box"></div> : null}
-        <img src={`${this.state.currentItem.imageUrl}`} />
-        <div> {this.state.currentItem.size}</div>
-        <div> {`${this.state.currentItem.price} $`}</div>
-        <button>ADD TO CART</button> */}
-        <ProductCard/>
-      </div>
-    );
+    return <div className="proudct-container">{this.mapping()}</div>;
   }
 }
 

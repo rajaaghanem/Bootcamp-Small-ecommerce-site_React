@@ -1,21 +1,47 @@
 .card {
-  width: 15vw;
-  height: 35vh;
+  width: 25vw;
+  height: 80vh;
   display: flex;
   flex-direction: column;
-  border: 0.2rem solid orange;
-  border-radius: 0.5rem;
+  border: 0.2rem solid rgba(255, 166, 0, 0.671);
+  border-radius: 1rem;
   text-align: center;
   margin: 0.4rem;
-  box-shadow: 0.2rem 0.2rem 0.6rem gray;
+  box-shadow: 0.2rem 0.2rem 1rem gray;
 }
 
 .card-content {
-  font-size: 2rem;
+  font-size: 1.5rem;
+  padding: 0.5rem;
+  text-align: center;
 }
 
 .card-image {
-  width: 15vw;
-  height: 25vh;
+  width: 25vw;
+  height: 50vh;
   border-radius: 0.4rem;
+  object-fit: cover;
+}
+
+.btn-style {
+  font-size: 1.2rem;
+  margin: 0.8rem;
+  background: wheat;
+  border: none;
+  box-shadow: 0.2rem 0.2rem 0.6rem gray;
+  color: rgb(255, 102, 0);
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+}
+
+.title {
+  background-color: papayawhip;
+  border-radius: 0.4rem;
+  padding: 1rem;
+  margin: 0.5rem;
+  box-shadow: 0.2rem 0.2rem 0.6rem gray;
+}
+
+.price {
+  padding: 1rem;
 }
