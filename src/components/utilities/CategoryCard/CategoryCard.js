@@ -7,7 +7,7 @@ class CategoryCard extends React.Component{
 
     render(){
         return (
-            <div className={`category-card category-${this.props.catigoryClass}`}>
+            <div className={`category-card ${this.props.catigoryClass}`}>
               <h1 className="category-card-title">{this.props.catigoryName}</h1>
             </div>
           );

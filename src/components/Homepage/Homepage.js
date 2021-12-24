@@ -24,28 +24,28 @@ class Homepage extends React.Component {
       <div className="categories-container">
         <Link to="/ProductsCategories/women" className="link-style">
           <CategoryCard
-            catigoryClass="women"
+            catigoryClass="category-women"
             catigoryName="Women"
             catigoryData={this.state.womenData}
           />
         </Link>
         <Link to="/ProductsCategories/men">
           <CategoryCard
-            catigoryClass="men"
+            catigoryClass="category-men"
             catigoryName="Men"
             catigoryData={this.state.menData}
           />
         </Link>
         <Link to="/ProductsCategories/kids">
           <CategoryCard
-            catigoryClass="kids"
+            catigoryClass="category-kids"
             catigoryName="Kids"
             catigoryData={this.state.kidsData}
           />
         </Link>
         <Link to="/ProductsCategories/home">
           <CategoryCard
-            catigoryClass="home"
+            catigoryClass="category-home"
             catigoryName="Home"
             catigoryData={this.state.homeData}
           />

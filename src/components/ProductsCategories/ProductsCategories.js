@@ -5,7 +5,6 @@ import kidsStore from "../../stores/kidsStore";
 import menStore from "../../stores/menStore";
 import womenStore from "../../stores/womenStore";
 import CategoryCard from "../utilities/CategoryCard/CategoryCard";
-
 import { Link } from "react-router-dom";
 
 class Products extends React.Component {
@@ -21,32 +20,33 @@ class Products extends React.Component {
   render() {
     // console.log(this.props.match.params);
     // console.log(this.state[`${this.state.categoryName}`][0].category);
-    console.log(`${this.state.categoryName}_${this.state[`${this.state.categoryName}`][0].category}`.toLowerCase());
+    console.log(this.state[this.state.categoryName][0].imageClass);
+
     return (
       <div>
         <Link
           to={`/products/${this.state.categoryName}/${this.state[`${this.state.categoryName}`][0].category}`}
         >
           <CategoryCard
-            catigoryClass={`${this.state.categoryName}_${this.state[`${this.state.categoryName}`][0].category}`.toLowerCase()}
+          catigoryClass={this.state[this.state.categoryName][0].imageClass}
             catigoryName={`${this.state[`${this.state.categoryName}`][0].category}`}
           />
         </Link>
         <Link to={`/products/${this.state.categoryName}/${this.state[`${this.state.categoryName}`][1].category}`}>
           <CategoryCard
-            catigoryClass={`${this.state.categoryName}_${this.state[`${this.state.categoryName}`][1].category}`.toLowerCase()}
+            catigoryClass={this.state[this.state.categoryName][1].imageClass}
             catigoryName={`${this.state[`${this.state.categoryName}`][1].category}`}
           />
         </Link>
         <Link to={`/products/${this.state.categoryName}/${this.state[`${this.state.categoryName}`][2].category}`}>
           <CategoryCard
-            catigoryClass={`${this.state.categoryName}_${this.state[`${this.state.categoryName}`][2].category}`.toLowerCase()}
+            catigoryClass={this.state[this.state.categoryName][2].imageClass}
             catigoryName={`${this.state[`${this.state.categoryName}`][2].category}`}
           />
         </Link>
         <Link to={`/products/${this.state.categoryName}/${this.state[`${this.state.categoryName}`][3].category}`}>
           <CategoryCard
-            catigoryClass={`${this.state.categoryName}_${this.state[`${this.state.categoryName}`][3].category}`.toLowerCase()}
+            catigoryClass={this.state[this.state.categoryName][3].imageClass}
             catigoryName={`${this.state[`${this.state.categoryName}`][3].category}`}
           />
         </Link>
