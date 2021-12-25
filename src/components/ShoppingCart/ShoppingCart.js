@@ -1,5 +1,7 @@
 import React from "react";
 import CartCard from "../utilities/CartCard/CartCard";
+import "./ShoppingCart.css";
+
 // import { Link } from "react-router-dom";
 
 class ShopingCart extends React.Component {
@@ -18,7 +20,7 @@ class ShopingCart extends React.Component {
 
   render() {
     console.log("state of shopping card", this.state.addedItems);
-    return <div>{this.mapping()}</div>;
+    return <div className="items-container">{this.mapping()}</div>;
   }
 }
 
