@@ -14,8 +14,6 @@ localStorage.setItem('productsArr', JSON.stringify([]))
 
 class App extends React.Component {
 
-  state ={counter: localStorage.getItem('counter')};
-
   render() {
     return (
       <div>
