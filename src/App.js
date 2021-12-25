@@ -5,7 +5,6 @@ import Homepage from "./components/Homepage/Homepage";
 import Header from "./components/Header/Header";
 import ProductsCategories from "./components/ProductsCategories/ProductsCategories";
 import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
-import CategoryCard from "./components/utilities/CategoryCard/CategoryCard";
 import Products from "./components/Products/Products";
 
 localStorage.setItem('counter', 0);
