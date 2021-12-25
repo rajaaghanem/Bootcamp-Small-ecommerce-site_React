@@ -2,8 +2,6 @@ import React from "react";
 import CartCard from "../utilities/CartCard/CartCard";
 import "./ShoppingCart.css";
 
-// import { Link } from "react-router-dom";
-
 class ShopingCart extends React.Component {
   state = {
     addedItems: JSON.parse(localStorage.getItem("productsArr")),

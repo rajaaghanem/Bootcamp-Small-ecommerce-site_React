@@ -4,7 +4,6 @@ import kidsStore from "../../stores/kidsStore";
 import menStore from "../../stores/menStore";
 import womenStore from "../../stores/womenStore";
 import ProductCard from "../utilities/ProductCard/ProductCard";
-import { Link } from "react-router-dom";
 import "./Prouducts.css";
 
 class Products extends React.Component {
