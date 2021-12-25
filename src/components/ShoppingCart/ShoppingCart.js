@@ -9,7 +9,7 @@ class ShopingCart extends React.Component {
 
   mapping=()=>{
     return this.state.addedItems.map((item)=>{
-        return <CartCard image={item[0]} title={item[1]} price={item[2]}/>
+        return <CartCard key={item[3]} image={item[0]} title={item[1]} price={item[2]}/>
       // return items.map((item)=>{
       //   console.log(item[1]);
       //   return <CartCard image={item[0]} title={item[1]}/>
