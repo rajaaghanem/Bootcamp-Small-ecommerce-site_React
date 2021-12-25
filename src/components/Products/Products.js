@@ -28,8 +28,8 @@ class Products extends React.Component {
           title={product.title}
           img={product.imageUrl}
           price={product.price}
-        >
-        </ProductCard>
+          id={product.id}
+        ></ProductCard>
       );
     });
   };

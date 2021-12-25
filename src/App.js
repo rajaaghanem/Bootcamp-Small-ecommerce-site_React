@@ -8,7 +8,14 @@ import ShoppingCart from "./components/ShoppingCart/ShoppingCart";
 import CategoryCard from "./components/utilities/CategoryCard/CategoryCard";
 import Products from "./components/Products/Products";
 
+localStorage.setItem('counter', 0);
+localStorage.setItem('productsArr', JSON.stringify([]))
+
+
 class App extends React.Component {
+
+  state ={counter: localStorage.getItem('counter')};
+
   render() {
     return (
       <div>
