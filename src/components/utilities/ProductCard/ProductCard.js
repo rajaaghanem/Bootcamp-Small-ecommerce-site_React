@@ -6,6 +6,7 @@ import "./ProductCard.css";
 class ProductCard extends React.Component {
   state ={addedItem: ""};
 
+  // add the selected item details to the localStorage
   handleClick=()=>{
     let number= localStorage.getItem('counter');
     number++;
@@ -15,7 +16,6 @@ class ProductCard extends React.Component {
     let storedItems = JSON.parse(localStorage.getItem('productsArr'));
     storedItems.push(item);
     localStorage.setItem('productsArr', JSON.stringify(storedItems));
-    console.log("local", storedItems);
   }
 
   render(){

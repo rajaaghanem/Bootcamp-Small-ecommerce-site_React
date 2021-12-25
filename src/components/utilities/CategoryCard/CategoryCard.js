@@ -1,17 +1,13 @@
 import React from "react";
 import "./CategoryCard.css";
 
-
-class CategoryCard extends React.Component{
-    state={data: this.props.catigoryData};
-
-    render(){
-        return (
-            <div className={`category-card ${this.props.catigoryClass}`}>
-              <h1 className="category-card-title">{this.props.catigoryName}</h1>
-            </div>
-          );
-    }
+const CategoryCard = (props) =>{
+  return (
+    <div className={`category-card ${props.catigoryClass}`}>
+      <h1 className="category-card-title">{props.catigoryName}</h1>
+    </div>
+  );
 }
+
 
 export default CategoryCard;

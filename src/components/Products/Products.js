@@ -20,6 +20,7 @@ class Products extends React.Component {
   currentProducts =
     this.state[this.state.currentCategory][this.state.currentIdx].data;
 
+  //add the products of the choosen category to screen
   mapping = () => {
     return this.currentProducts.map((product) => {
       return (
@@ -35,9 +36,6 @@ class Products extends React.Component {
   };
 
   render() {
-    console.log(this.currentProducts);
-    console.log(this.props.match.params.name);
-
     return <div className="proudct-container">{this.mapping()}</div>;
   }
 }
